@@ -18,6 +18,7 @@ export const getPlacesData = async (type, sw, ne) => {
 
     return data;
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(error);
   }
 };
@@ -36,6 +37,7 @@ export const getWeatherData = async (lat, lng) => {
       return data;
     }
   } catch (error) {
+    // eslint-disable-next-line no-console
     console.log(error);
   }
 };
